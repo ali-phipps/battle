@@ -18,6 +18,7 @@ require File.expand_path '../../app.rb', __FILE__
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
+require 'web_helpers'
 
 Capybara.app = Battle
 
